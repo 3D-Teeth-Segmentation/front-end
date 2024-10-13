@@ -1,8 +1,10 @@
 name: Deploy Docusaurus Docs
 
 on:
-  release:
-    types: [created]
+  push:
+    branches:
+      - main  # Changez en fonction de la branche que vous utilisez
+      - master  # Ajoutez cela si votre branche principale est 'master'
 
 jobs:
   build:
