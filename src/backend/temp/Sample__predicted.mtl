@@ -1,0 +1,75 @@
+newmtl material_0
+Ka 0.5 0.5 0.5
+Kd 0.5 0.5 0.5
+Ks 0.5 0.5 0.5
+illum 2
+newmtl material_1
+Ka 1.0 0.0 0.0
+Kd 1.0 0.0 0.0
+Ks 1.0 0.0 0.0
+illum 2
+newmtl material_2
+Ka 0.0 0.0 1.0
+Kd 0.0 0.0 1.0
+Ks 0.0 0.0 1.0
+illum 2
+newmtl material_3
+Ka 0.0 1.0 0.0
+Kd 0.0 1.0 0.0
+Ks 0.0 1.0 0.0
+illum 2
+newmtl material_4
+Ka 0.5 0.0 0.5
+Kd 0.5 0.0 0.5
+Ks 0.5 0.0 0.5
+illum 2
+newmtl material_5
+Ka 1.0 0.65 0.0
+Kd 1.0 0.65 0.0
+Ks 1.0 0.65 0.0
+illum 2
+newmtl material_6
+Ka 1.0 0.75 0.8
+Kd 1.0 0.75 0.8
+Ks 1.0 0.75 0.8
+illum 2
+newmtl material_7
+Ka 0.5 0.5 0.5
+Kd 0.5 0.5 0.5
+Ks 0.5 0.5 0.5
+illum 2
+newmtl material_8
+Ka 1.0 1.0 0.0
+Kd 1.0 1.0 0.0
+Ks 1.0 1.0 0.0
+illum 2
+newmtl material_9
+Ka 0.0 0.5 0.5
+Kd 0.0 0.5 0.5
+Ks 0.0 0.5 0.5
+illum 2
+newmtl material_10
+Ka 0.68 0.85 0.9
+Kd 0.68 0.85 0.9
+Ks 0.68 0.85 0.9
+illum 2
+newmtl material_11
+Ka 0.0 1.0 0.0
+Kd 0.0 1.0 0.0
+Ks 0.0 1.0 0.0
+illum 2
+newmtl material_12
+Ka 1.0 0.84 0.0
+Kd 1.0 0.84 0.0
+Ks 1.0 0.84 0.0
+illum 2
+newmtl material_13
+Ka 0.65 0.16 0.16
+Kd 0.65 0.16 0.16
+Ks 0.65 0.16 0.16
+illum 2
+newmtl material_14
+Ka 0.5 0.0 0.5
+Kd 0.5 0.0 0.5
+Ks 0.5 0.0 0.5
+illum 2
