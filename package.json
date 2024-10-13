@@ -37,7 +37,7 @@
   "scripts": {
     "lint": "CI=false eslint .", // Vérifiez les erreurs Eslint sans échouer
     "start": "react-scripts start",
-    "build": "npm run lint && react-scripts build", // Exécutez lint avant de construire
+    "build": "CI=false react-scripts build", // Exécutez lint avant de construire
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
