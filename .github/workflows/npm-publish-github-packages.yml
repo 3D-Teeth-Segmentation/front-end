@@ -1,4 +1,4 @@
-name: Deploy Docusaurus Docs
+name: Deploy Docusaurus Doc
 
 on:
   push:
@@ -32,4 +32,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/build  # Assurez-vous que ce chemin est correct
+          publish_dir: docs/build  # Assurez-vous que ce chemin est correct
