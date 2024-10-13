@@ -35,12 +35,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts --openssl-legacy-provider test",
-    "eject": "react-scripts eject",
-    "lint": "eslint . || true", // Ignore les erreurs Eslint
-    "build": "npm run lint && react-scripts build" // Vérifie d'abord le lint, puis construit
+    "lint": "CI=false eslint .", // Vérifiez les erreurs Eslint sans échouer
+    "start": "react-scripts start",
+    "build": "npm run lint && react-scripts build", // Exécutez lint avant de construire
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
