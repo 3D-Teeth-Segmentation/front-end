@@ -37,7 +37,7 @@ function UploadViewComponent() {
                 <div align={'center'}>
                     {uploadedFile && (
                         <Link to="/segmentation" style={{ textDecoration: 'none' }}>
-                            <Button style={{ height: 50, width: 300 }} variant="contained" color="primary">
+                            <Button style={{ height: 50, width: 300, marginBottom:50 }} variant="contained" color="primary">
                                 Apply Segmentation
                             </Button>
                         </Link>

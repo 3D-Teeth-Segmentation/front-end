@@ -65,7 +65,10 @@ function Navbar({ themeMode, changeThemeMode }) { // Recevoir changeThemeMode co
                         </Link>
                     </Button>
                     <Button sx={{ color: themeMode === 'dark' ? '#fff' : '#333', fontSize: 18, marginLeft: 10, fontFamily: 'Verdana' }}>
-                        <Description sx={{ marginRight: 1 }} /> Docs
+                        <Description sx={{ marginRight: 1 }} />
+                        <Link to="/docs" style={{ color: 'inherit', textDecoration: 'none' }}>
+                            Docs
+                        </Link>
                     </Button>
                     <Button sx={{ color: themeMode === 'dark' ? '#fff' : '#333', fontSize: 18, marginLeft: 10, fontFamily: 'Verdana' }}>
                         <Info sx={{ marginRight: 1 }} />

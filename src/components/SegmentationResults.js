@@ -45,7 +45,7 @@ const SegmentationResults = () => {
                 formData.append('file', fileBlob, 'uploaded_file.obj');
 
                 try {
-                    const response = await fetch('http://127.0.0.1:8085/segmentation', {
+                    const response = await fetch('http://127.0.0.1:8000/segmentation', {
                         method: 'POST',
                         body: formData,
                     });
